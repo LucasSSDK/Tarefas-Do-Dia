@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <%-include('./components/head')%>
+
+<body>
+   
+    <main>
+        <div class="container">
+            <div class="detalhes">
+                <h2><%= tarefa.nome %></h2>
+                <p><%= tarefa.detalhe%></p>
+                <a href="/editar/<%= tarefa.id %>">editar</a>
+                <a href="/deletar/<%= tarefa.id %>">excluir</a>
+            </div>
+        </div>
+    </main>
+    
+        <%-include('./components/footter')%>
+    <script src="/JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+
+input{
+    margin: 0 2rem 0 0;
+    width: 70%;
+    padding: 6rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: rgb(56, 69, 71);
+}
+
+
+.flex{
+    display: flex;
+}
+
+#tasks{
+    margin: 1rem;
+}
+
+.header{
+    background-color: rgb(70, 154, 126); 
+    padding: 1rem;
+    color: #fff;
+    text-align: center; 
+    margin: 0.2rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+input{
+    margin: 0 2rem 0 0; 
+    width: 70%;
+    padding: .6rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: rgb(60, 53, 53);
+}
+
+#addBtn{
+    width: 25%;
+    padding: 0.5rem;
+    background:rgb(244, 239, 239);
+    color: rgb(60, 53, 53);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+#addBtn{
+    background-color: rgb(77, 124, 124);
+   transform: rotate;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgb(119, 195, 117);
+    position: relative;
+    font-size: 18
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(188, 239, 197);
+}
+
+ul li:hover{
+    background-color: rgb(201, 159, 149);
+}
+
+ul li.checked{
+    background: rgb(7, 241, 58);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    content: "";
+    position: absolute;
+    border: rgb(2, 60, 15) solid;
+    top:10px;
+    left: 16px;
+    height: 15px;
+    width: 10px;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 0rem .4rem 0rem 1rem;
+}
+
+.close:hover{
+    background-color:black
+    
+}

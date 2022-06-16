@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('./components/head')%>
+
+
+<body>
+    <header class ="header">
+        <h1>To Do List</h1>
+        <article class="flex">
+            <input type="text" id = "myInput" placeholder="Insira uma tarefa">
+            <button id="addBtn">Add Tarefa</button>
+        </article>
+
+        <section id="tasks">
+            <ul id="myUL">
+
+            </ul>
+        </section>
+
+    </header>
+
+    <%-include('./components/footter')%>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
